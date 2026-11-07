@@ -1,0 +1,35 @@
+{
+  "package": "patent-overview-search",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "f13-prior-art-overview",
+      "title": "F-1-3概要专利检索生成物标准_PRIOR_ART_OVERVIEW_STANDARD_V0.1.6_正式生效版.md",
+      "version": "0.1.6",
+      "sha256": "96728271b04f4825b57551abc98d8c3f10d97c9243a312e5f529d9dac54a9296",
+      "relationship": "authorized_technical_excerpt_and_standalone_adaptation",
+      "rights_basis": "OasisIntWrite user declaration 2026-11-07",
+      "original_rule_effect": "formal",
+      "original_snapshot_included": false,
+      "selected_technical_sections": [
+        "1.1",
+        "1.2",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8"
+      ]
+    }
+  ],
+  "modification_notice": "2026-11-07: independent ordinary-material inputs; technical excerpts retained; historical runtime/governance/evaluation artifacts excluded. No source effect promoted.",
+  "third_party_material_relicensed": false,
+  "portable_source_contract": {
+    "source_id": "PATENT-SKILLS-CONTRACT-0.2.0",
+    "section": "3",
+    "sha256": "fa07c2e2925f38f906a12ee00a144335088c0def8710cc9e97b7181c1fa25957",
+    "relationship": "authorized_named_standalone_adaptation",
+    "original_snapshot_included": false
+  }
+}

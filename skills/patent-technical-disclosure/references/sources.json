@@ -1,0 +1,44 @@
+{
+  "package": "patent-technical-disclosure",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "F-1-5-TECHNICAL-DISCLOSURE",
+      "version": "0.1.2",
+      "sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "relationship": "authorized_adaptation_for_standalone_use",
+      "rights_basis": "OasisIntWrite owner declaration, 2026-11-07",
+      "source_rule_effect": "not_promoted_by_this_package",
+      "included_original_snapshot": false
+    }
+  ],
+  "modification_notice": "2026-11-07: authorized technical excerpts and standalone contract; historical/runtime/evaluation artifacts excluded.",
+  "public_technical_reference_urls": [
+    "https://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html"
+  ],
+  "source_material_is_not_case_fact": true,
+  "selected_technical_sections": [
+    "1.1",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.11"
+  ],
+  "table_contract_source": {
+    "source_id": "V3.4.0-local-chain-contract",
+    "section": "2.9",
+    "sha256": "9716b19c7e8e739408bb891d70a2a1fae847cec12b95afad1f6cf9819c133da4",
+    "relationship": "authorized_selected_table_fields",
+    "original_snapshot_included": false
+  },
+  "portable_source_contract": {
+    "source_id": "PATENT-SKILLS-CONTRACT-0.2.0",
+    "section": "3",
+    "sha256": "fa07c2e2925f38f906a12ee00a144335088c0def8710cc9e97b7181c1fa25957",
+    "relationship": "authorized_named_standalone_adaptation",
+    "original_snapshot_included": false
+  }
+}

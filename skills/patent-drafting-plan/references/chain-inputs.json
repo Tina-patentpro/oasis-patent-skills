@@ -1,0 +1,207 @@
+{
+  "skill_id": "M09",
+  "mode": "chain_only",
+  "source_contract_sha256": "7f64c95a0b8063dcf78e3a3b4b10f89d6aac38bc1e40b96e499d4db1d2712d67",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-3-8生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "claims_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个当前权利要求书文件",
+      "treatment": "用于计划基线更新并记录差异"
+    },
+    {
+      "id": "claims_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段当前权利要求书文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "specification_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个当前说明书文件",
+      "treatment": "用于支持性和实施方式计划"
+    },
+    {
+      "id": "specification_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段当前说明书文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_1_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第1份独立真实专利或技术文献全文文件",
+      "treatment": "单独建立权项、段落、附图和实施例证据定位；不得与其他文献合并到本ID"
+    },
+    {
+      "id": "comparison_doc_1_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第1份独立对比文件的一段技术内容文本",
+      "treatment": "与`comparison_doc_1_file`并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_2_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第2份独立真实专利或技术文献全文文件",
+      "treatment": "单独建立权项、段落、附图和实施例证据定位；不得与其他文献合并到本ID"
+    },
+    {
+      "id": "comparison_doc_2_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第2份独立对比文件的一段技术内容文本",
+      "treatment": "与`comparison_doc_2_file`并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_3_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第3份独立真实专利或技术文献全文文件",
+      "treatment": "单独建立权项、段落、附图和实施例证据定位；不得与其他文献合并到本ID"
+    },
+    {
+      "id": "comparison_doc_3_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第3份独立对比文件的一段技术内容文本",
+      "treatment": "与`comparison_doc_3_file`并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_4_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第4份独立真实专利或技术文献全文文件",
+      "treatment": "单独建立权项、段落、附图和实施例证据定位；不得与其他文献合并到本ID"
+    },
+    {
+      "id": "comparison_doc_4_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第4份独立对比文件的一段技术内容文本",
+      "treatment": "与`comparison_doc_4_file`并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_5_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第5份独立真实专利或技术文献全文文件",
+      "treatment": "单独建立权项、段落、附图和实施例证据定位；不得与其他文献合并到本ID"
+    },
+    {
+      "id": "comparison_doc_5_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第5份独立对比文件的一段技术内容文本",
+      "treatment": "与`comparison_doc_5_file`并存时作为补充或纠正"
+    },
+    {
+      "id": "strategy_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个保护范围、研发重点或论证策略文件",
+      "treatment": "作为人工策略输入，不改变技术事实来源"
+    },
+    {
+      "id": "strategy_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段保护范围、研发重点或论证策略文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "comparison_doc_6_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第6份独立专利或技术文献全文，一个文件",
+      "treatment": "独立身份/hash/真实读取范围；不与其他独立文献拼包"
+    },
+    {
+      "id": "comparison_doc_6_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第6份文献的一段同语义文本",
+      "treatment": "补充/纠正对应文件，不能把片段冒充全文或重复计件"
+    },
+    {
+      "id": "comparison_doc_7_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第7份独立专利或技术文献全文，一个文件",
+      "treatment": "独立身份/hash/真实读取范围；不与其他独立文献拼包"
+    },
+    {
+      "id": "comparison_doc_7_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第7份文献的一段同语义文本",
+      "treatment": "补充/纠正对应文件，不能把片段冒充全文或重复计件"
+    },
+    {
+      "id": "comparison_doc_8_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第8份独立专利或技术文献全文，一个文件",
+      "treatment": "独立身份/hash/真实读取范围；不与其他独立文献拼包"
+    },
+    {
+      "id": "comparison_doc_8_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第8份文献的一段同语义文本",
+      "treatment": "补充/纠正对应文件，不能把片段冒充全文或重复计件"
+    },
+    {
+      "id": "comparison_doc_9_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第9份独立专利或技术文献全文，一个文件",
+      "treatment": "独立身份/hash/真实读取范围；不与其他独立文献拼包"
+    },
+    {
+      "id": "comparison_doc_9_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第9份文献的一段同语义文本",
+      "treatment": "补充/纠正对应文件，不能把片段冒充全文或重复计件"
+    },
+    {
+      "id": "comparison_doc_10_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "第10份独立专利或技术文献全文，一个文件",
+      "treatment": "独立身份/hash/真实读取范围；不与其他独立文献拼包"
+    },
+    {
+      "id": "comparison_doc_10_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "第10份文献的一段同语义文本",
+      "treatment": "补充/纠正对应文件，不能把片段冒充全文或重复计件"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

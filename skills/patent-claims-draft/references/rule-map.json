@@ -1,0 +1,580 @@
+{
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft",
+  "mappings": [
+    {
+      "rule_id": "R01",
+      "source_heading": "### 1.1 用途、成功目标及初稿边界〔R01〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-1",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R01-EQ",
+      "source_heading": "**同等质量与容缺分栏〔R01-EQ〕：** “专业质量是否达标”与“输入/技术事实确认到何种程度”分别判断。前者按本轮适用的正式撰写要求检查独权必要组合、概括、并列对象、从权回退、文字/引用及已有材料支持；后者如实保留已给、推演、模型补全、冲突和未知。没有实测、实际参数未定或发明人未确认，不单独使一份有据、自洽且边界明确的初稿不合格；反之，事实标签正确不使有实质布局漏项或不清楚权文合格。该要求不把工程可行性研究、正式文件完整审查和检索全覆盖引入本节点。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-1",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R02",
+      "source_heading": "### 1.2 八项输入及真实基线〔R02〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R02-INCOMPLETE",
+      "source_heading": "**容缺受理〔R02-INCOMPLETE〕：** 八个输入ID和每项单载体合同不变，“有输入字段”与“技术信息齐全”不是同一判断。按当前实际资料分流：①缺少与本轮对象无关或非必要的信息，继续起草，不先发全量问卷；②必要表达可以由已有一般关系、可解释机理或明示合理假设补足，形成完整可读候选并按§1.3定位补全与确认影响；③关键关系存在未决实质冲突、没有可解释基础或连候选条件下都不能自洽，先限缩/改选有据方向，仍不能成权的明确片段及最少缺项，不将含待填空格或纯目标的文本登记为完整权利要求。受理可生成受限文件，不等于完整初稿目标当然通过；未提供实验、附图或一切非关键参数不是一概拒收理由。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R03",
+      "source_heading": "### 1.3 合并、事实状态与稳定身份〔R03〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R03-LAYER",
+      "source_heading": "**当前累计与历史〔R03-LAYER〕：** 当前权项/方向/T4及其快照副本与前序/历史载荷分别标明用途；当前副本应一致，历史UID、来源和生成时记录保留，不用全篇首个身份/结论替代当前。后置精确文稿接受与生成时pending/false可以按时点并存，不回写原记录，也不将收据/历史旧稿强设成第九输入。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "optional_chain",
+      "target": "references/chain-adapter.md",
+      "reason": "仅实际链式模式；独立结果自行完整",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04",
+      "source_heading": "### 1.4 独权、从权和范围初检〔R04〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04a",
+      "source_heading": "### 1.4.1 独权限定的角色与取舍〔R04a〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-1",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04a-COST",
+      "source_heading": "**必要限定与模型选型的范围代价〔R04a-COST，已有要求具体化〕：** 对影响范围的重要或有争议限定，回答移出后具体丢失哪项必要关系，还是仅放弃一种优选实现、应用场景或风险控制选择；结合§1.4.3决定保留、下沉或有据概括，不作无依据的删词试验。决定范围的模型公式、阈值形式、接口或步骤还应说明为何选用该形式，以及已读材料能够识别、但因该选型未覆盖的合理备选或未明边界；有据补全可以保留，不把一种模型说成原材料唯一方案。答案并入原方向说明/T4，不要求逐字冻结旧稿、穷举替代、另造技术事实或给每一限定增加长论证。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04b",
+      "source_heading": "### 1.4.2 从权的实际增量与回退用途〔R04b〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-2",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04b-VALUE",
+      "source_heading": "**重要回退的具体范围用途〔R04b-VALUE，已有要求具体化〕：** 对重要或有争议的分支/联合回退，可用一个来自实际材料的条件情形说明相对真实父项多限制了什么、留下哪种实施选择或付出何种排除代价；若已有矩阵和具体限定已清楚表达该答案，准确引用即可。分别存在平行限定不等于其联合分支已成权，也不使全部择一选支合取。该判断不要求每条从权另举反例或单独具备创造性，不按数量、树形或新增效果选择条目；未形成有用增量可合并/不设，重要且已选纳入者仍须按§1.4.5实际成权。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04c",
+      "source_heading": "### 1.4.3 概括依据、反证与候选范围分层〔R04c〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-3",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d",
+      "source_heading": "### 1.4.4 条件随实现及实际路径承接〔R04d〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d-EQ",
+      "source_heading": "**全部权项的修改前后限定核对〔R04d-EQ〕：** 以“等义润色、清楚化、简化指代、合并或拆句”等名义修改任何权项时，不论独权、从权或引用式并列独权，均对照本轮实际可见的准确旧文与新文，核对对象及其层级、位置/连接/配合、动作主体与对象、步骤顺序、成立条件和否定限制、并列选择及数值/范围、引用关系及沿路径继承的限定。按实际变化检查相关维度，不要求每项复制完整清单；原实质限定应明确保留、等义改述或作范围调整，不能只因部件名称相同、语句更通顺或结果相近就判断等义。记录决定性旧/新措词、依据及受影响权项，可并入原方向说明、矩阵/T4和自检，不新增必填表或附件。仅换编号而范围不变也应核清引用映射，不把文字不同自动判为技术不同。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d-SCOPE",
+      "source_heading": "**等义修改与范围调整分开〔R04d-SCOPE〕：** 删除、替换或抽象实质限定，以及改变其作用对象、适用条件或引用继承而使约束含义发生变化的，不能未经论证标为措词修改。有意概括、下沉或改变范围，应明示改变及其理由。已有来源的普通限缩，核对新增限定、累计组合支持、用途及相关条件；从权限缩另按§1.4.2核对相对真实父项的增量。限缩本身可以就是有用收口，不因其属于范围变化而要求另证更宽概括、逐项给反证或再造一层更窄回退。实际涉及概括、放宽或相关必要关系调整时，按对象/用途核§1.4.1—1.4.3；其中实际触发§1.4.3的，才适用该节完整的来源、机制/必要关系、反面证据、适用边界及有据收窄路径要求，从权也不豁免其实际触发的要求。不得只加“待确认”而宣称已支持或等义。确有依据的概括和限缩仍可进行，不把旧句每个字都冻结为不可修改，也不强令所有从权限定进入独权。按§1.3已被用户明确删除/撤回的内容不得为保真而恢复；应保留删除事实及其对必要关系、范围和本轮可用性的影响。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d-PATH",
+      "source_heading": "**受影响路径及说明同步〔R04d-PATH〕：** 某权项的限定或引用改变后，复核其本身、沿引用直接或间接承接它的后续从权，以及引用式并列独权中实际选择该项或后续项的相应路径；按每条路径分别核累计限定，不合并全部择一选支，也不把该变化套给无关支路。同步核对旧新编号/父项、特征来源及事实/推理状态、父项新增限定与实际回退用途、矩阵/T4、方向说明和警示影响范围；稳定ID和开放风险不得被润色抹掉。文字未改的后续权项也可能因父项变化而改变含义；仅后续正文未改不证明无影响。复核范围随实际影响确定，不默认重编全部案例或重复全稿审计。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d-TIME",
+      "source_heading": "**条件对象、时点与改进后范围排除〔R04d-TIME，明确新增检查〕：** 对决定保护范围的成立条件，辨明它约束哪个对象、其处理前状态/过程状态/成品现态中的何者，以及它是方案成立条件、研发动机还是预期效果。结合该权项的主题、自身文字和真实承接路径判断自然读法，不能仅凭研发先后把未写的前态反填为成品条件，也不把所有可想象解释视为同等自然。再用有依据的纸面情形检查：方案取得预期改进后，该条件是否可能不再成立，因而排除原欲保护的实施范围；有此可能时说明范围代价及其是否属于本轮有意选择。有据、清楚且有意的现态限缩可以保留，不能仅因排除部分改进结果自动判FAIL，也不强制改为前态、删条件或增权。若存在影响本轮目标的可行动歧义或错位，应据可用材料作明确表达并按本节核范围变化；无法有据成权的按§1.2、§3.5记录具体边界。答案留在原说明/矩阵，不新增业务输入、附件或实验前置。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04d-PRED",
+      "source_heading": "**门限、时域与计量口径〔R04d-PRED，已有要求具体化〕：** 对决定范围或存在争议的判定条件，依实际情形核清约束对象、计量单位或计数口径、作用阶段、比较方向/端点、持续时域及其对允许动作的影响。区分进入/保持/退出、进入判定时成立/整个等待期间持续成立、必要门/充分触发、预计量/实际量、同一方案的联合约束/不同方案分别满足；明确缺失或无效的关键输入能否作为该判定的通过依据，不默认以0补齐。根据本项自身及真实父链、引用式并列独权实际引入的技术限定核累计；兄弟权项、别类独权或方向说明/T4不能替权文补入未承接的条件。可沿合法引用继承，不强制每项重复定义；没有具体数值、测法或实测不当然构成缺陷，也不要求各类案件新增状态机、无关异常动作或固定量纲。选择不同端点、时域、计数对象或条件强度时，说明范围代价，不未经核对称等义。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04e",
+      "source_heading": "### 1.4.5 保护对象、类别及并列独权布局〔R04e〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-5",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04e-REASON",
+      "source_heading": "**一般过程与详细实现的取舍边界〔R04e-REASON〕：** 对重要方法候选，分别核已有一般动作过程、作用主体及对象价值，以及详细恢复顺序、阈值、判据或状态机的欠缺。源已给一般过程/主体时，不能以详细恢复未给笼统推成整个方法类别无依据；产品中的动作描述也不自动说明一般方法保护价值已充分覆盖。仍按本节给本轮有据的纳入/合并/待论证/不设理由，方法方向、范围、是否成权及布局充分性由实际材料和人控决定；源确无可理解过程或用户明确限定对象时可具体说明不设/待论证，不强造第二独权、恢复步骤或执行主体。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-5",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04e-COMPLETE",
+      "source_heading": "**布局完成与候选认可〔R04e-COMPLETE〕：** 对“完整初稿及保护布局”目标，有据、重要且已决定纳入的对象/回退，必须在当前唯一R1形成实际编号权文，并在R2/R3/T4给必要组合、真实父项、增量及来源；外置说明、骨架或“纳入候选”只证明该层决定，不等于已成权、当前R1覆盖或完整布局通过。若进一步审阅决定合并/不设，说明实际重复覆盖、支持或保护代价及与原候选决定的关系；“已知有价值但暂不写、只补一份说明”不能作为完整布局达标理由。保留所有有效材料不等于每个设想必须入权；真正无独立价值或关键依据不足的对象可有据不设。历史FAIL保留，新对象按其实际质量另判，不能用受限外置PWC跨对象消除原FAIL。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-5",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04e-VALUE",
+      "source_heading": "**对象布局的具体保护用途〔R04e-VALUE，已有要求具体化〕：** 对重要或有争议的并列对象，用实际材料中的制造/使用主体、交付对象或必要交互情形说明新增保护用途，以及不设时留下的具体范围空缺；与§1.4.2的回退答案可合并或准确互引。部件与整机、方法与产品、单端与协作系统分别判断，不能只列类别或宣称一类自动替代另一类。没有材料支持的商业情形不补造；有据不设可以保留取舍代价，不强凑产品/方法/系统/介质全套。既有重要机会是否应成权仍按本节REASON/COMPLETE，不因例题或外置认可自动放行。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R05",
+      "source_heading": "### 1.5 一轮方向与多次生成的比较价值〔R05〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-5",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R06",
+      "source_heading": "### 1.6 特征矩阵及T4权项侧初版〔R06〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-6",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R06-SUPPORT",
+      "source_heading": "**T4结论语义〔R06-SUPPORT〕：** 支持程度须说明判断对象是当前交底/已有材料的文字覆盖、实施/效果证据，还是正式用途充分性；不得把未来F27尚未形成的支持位置当已存在。“建议限缩/补充”说明为处置动作，不替代充分/部分/缺失的对象判断。完整文字与技术未证可并存，实际已有必要限定/关系漏写须具体指出，不能统一“部分”遮盖。用现有T4说明即可，不新增强制字段、枚举或独立报告。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-6",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R07",
+      "source_heading": "### 1.7 唯一主Markdown与下游读取合同〔R07〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R07-LAYER",
+      "source_heading": "**警示层次与发生身份〔R07-LAYER〕：** 自身当前警示、前序继承对象、历史重复发生分别核完整对象及其来源、影响、处理和人工动作，不能以数组先后取当前或用继承数组替自身。审阅引用用节点、精确文档UID/SHA、warning_id及当前/历史层区分同号发生；不要求新ID体系/旧ID改号，不按同ID全局去重吞掉当前对象或把历史重复计作新增当前风险。完整累计保全和单文件可读要求保持。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "optional_chain",
+      "target": "references/chain-adapter.md",
+      "reason": "仅实际链式模式；独立结果自行完整",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R07-CURRENT",
+      "source_heading": "**当前唯一定位与历史保真〔R07-CURRENT，已有要求具体化/结构边界〕：** 利用既有章节、文档身份和来源定位明确当前权文、矩阵/T4及自身警示的读取入口；同一文件内的当前副本应一致。历史整稿或载荷中的同名R1、旧编号、旧pending和“本轮”须有可辨历史边界，不能与当前层并列为两个有效答案。修改影响范围后，依§1.4.4-PATH核当前说明/矩阵/警示中的编号、父项及条件，旧历史原文不回写。可用准确同文件引用减少无必要重复，不以递归复制相同历史包装证明累计完整，也不以去重/瘦身删掉唯一承载的有效技术内容、未采用但有效内容、来源、人工修改或开放警示；按合同须完整传递的旧字节继续保留。不得按warning_id跨发生身份全局去重，不新增输入/必填字段或要求下游回找外部历史。若整理需改变累计/封装或消费者合同，另列差异，不由本条授权。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R08",
+      "source_heading": "### 1.8 双状态、风险与人为选择〔R08〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R08-ACCEPT",
+      "source_heading": "**接受子条件〔R08-ACCEPT〕：** 有后置精确文稿接受依据时，只注记复合警示中被明确满足的接受子条件、对象和时点，保留原警示/生成记录及仍开放的技术、规则、正式用途条件；accepted不等于resolved、confirmed_fact或无警示ready。没有该证据只说明本次未核接受事实，不据此断言从未接受，也不要求先取得外置收据才交付受限稿。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "source_identity_not_runtime_dependency",
+      "target": "references/sources.json",
+      "reason": "保留源身份；历史效力和当期法律核查不升格",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R04",
+      "source_heading": "### 1.9 初稿优先级与法律依据〔R04、R06〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "source_identity_not_runtime_dependency",
+      "target": "references/sources.json",
+      "reason": "保留源身份；历史效力和当期法律核查不升格",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R09",
+      "source_heading": "### 2.1 默认轻量单轮流程〔R09〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R10",
+      "source_heading": "### 2.2 快速与低成本的实现约束〔R10〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R05",
+      "source_heading": "### 2.3 人工决定与下轮提示〔R05、R08〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R11",
+      "source_heading": "### 3.1 目标、证据和责任分层〔R11〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R12",
+      "source_heading": "### 3.2 轻量六维0—4级尺度〔R12〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R11",
+      "source_heading": "### 3.3 不可被初稿定位抵消的错误〔R11、R12〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R13",
+      "source_heading": "### 3.4 规则级边界情形〔R13〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R11",
+      "source_heading": "### 3.5 最小评价记录与唯一状态〔R11、R12〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R11-SCOPE",
+      "source_heading": "**评价覆盖与精确复用〔R11-SCOPE〕：** 在既有评价记录分开字节保全/引用检查、新实质审读、精确原证据复用及未读范围；复用给原报告/对象身份、记录覆盖及当前适用关系，同SHA只证明身份，仍核当前外层/输入/警示/接受关联对原判断的影响。未提供的历史/图像/外部全文不冒称新审，作者自审或已有接受不代独立复审。说明服务本轮实际目标，不新增生成输入、额外附件或默认审稿。",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    },
+    {
+      "rule_id": "R14",
+      "source_heading": "### 3.6 后续验证与正式生效〔R14〕",
+      "source_sha256": "c8c4691db030af30c3ee7c275502cb679c7a3aea8ea0ec601994efc4e6b5b7ac",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ]
+    }
+  ],
+  "mapping_presence_is_not_behavior_proof": true
+}

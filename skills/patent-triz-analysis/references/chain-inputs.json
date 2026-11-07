@@ -1,0 +1,39 @@
+{
+  "skill_id": "M02",
+  "mode": "chain_only",
+  "source_contract_sha256": "50e17ec5ff6b13e3a86332f9fae63b72b5d2fa41911d6b841dcf1326c1504892",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-1-1生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "technical_analysis_material_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个补充技术分析、实验或设计文件",
+      "treatment": "用于修正问题、根因、约束或候选方向；保留来源定位"
+    },
+    {
+      "id": "technical_analysis_material_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段补充技术分析、实验或设计文本",
+      "treatment": "与文件并存时作为补充或纠正，不无提示覆盖上游事实"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

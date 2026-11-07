@@ -1,0 +1,53 @@
+{
+  "package": "patent-fulltext-recheck",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "f38-full-text-recheck",
+      "title": "F-3-8全文深度复检生成物标准_FULL_TEXT_RECHECK_STANDARD_V0.1.2.md",
+      "version": "0.1.2",
+      "sha256": "107225884099b2cdc12b46a2c7fa7f6a8825c1d201b8b2b140ff2f6acd1ce818",
+      "relationship": "authorized_technical_excerpt_and_standalone_adaptation",
+      "rights_basis": "OasisIntWrite user declaration 2026-11-07",
+      "original_rule_effect": "trial_limited",
+      "original_snapshot_included": false,
+      "selected_technical_sections": [
+        "1.1",
+        "1.2",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "1.10",
+        "1.14",
+        "1.15",
+        "1.16",
+        "1.17"
+      ]
+    }
+  ],
+  "modification_notice": "2026-11-07: independent ordinary-material inputs; technical excerpts retained; historical runtime/governance/evaluation artifacts excluded. No source effect promoted.",
+  "third_party_material_relicensed": false,
+  "table_contract_source": {
+    "source_id": "V3.4.0-local-chain-contract",
+    "section": "2.9",
+    "sha256": "9716b19c7e8e739408bb891d70a2a1fae847cec12b95afad1f6cf9819c133da4",
+    "relationship": "authorized_selected_table_fields",
+    "original_snapshot_included": false
+  },
+  "portable_source_contract": {
+    "source_id": "PATENT-SKILLS-CONTRACT-0.2.0",
+    "section": "3",
+    "sha256": "fa07c2e2925f38f906a12ee00a144335088c0def8710cc9e97b7181c1fa25957",
+    "relationship": "authorized_named_standalone_adaptation",
+    "original_snapshot_included": false
+  },
+  "generic_quality_methods": {
+    "source_id": "PATENT-SKILLS-QUALITY-MAP-0.1.0",
+    "sha256": "24eb079661b9bd855e07594557ff7ea03b84ef37bfd63b2c0744f058152b983f",
+    "relationship": "authorized_self_authored_generic_methods_only",
+    "historical_appendices_and_cases_included": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "skill_id": "M03",
+  "mode": "chain_only",
+  "source_contract_sha256": "c48bc0484e54f39cfa6818de0b0854a54eb7f0aed33ba0ee538e8419d4ead654",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-1-2生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "search_target_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个补充检索目标、术语或已知文献文件",
+      "treatment": "用于扩展或限定检索；单独记录用户提供文献和工作流检得文献"
+    },
+    {
+      "id": "search_target_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段补充检索目标、术语、排除项或已知文献文本",
+      "treatment": "与文件并存时补充或纠正，不覆盖未明确替换的上游候选"
+    },
+    {
+      "id": "max_fetch",
+      "channel": "配置",
+      "importance": "optional",
+      "one_item_boundary": "一个正整数候选数量上限",
+      "treatment": "缺失时使用项目默认值并记录"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

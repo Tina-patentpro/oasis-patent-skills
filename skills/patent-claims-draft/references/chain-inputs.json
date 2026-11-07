@@ -1,0 +1,67 @@
+{
+  "skill_id": "M06",
+  "mode": "chain_only",
+  "source_contract_sha256": "213f545ef1dc834e405f8e2e7882290c6a8830808b6863b72960129c3a16b318",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-1-5生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "disclosure_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个用户修订或替换的技术交底文件",
+      "treatment": "按明确指令更新累计交底；无替换指令时作为补充并保留差异"
+    },
+    {
+      "id": "disclosure_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段用户修订或补充的技术交底文本",
+      "treatment": "与文件并存时用于补充或纠正"
+    },
+    {
+      "id": "drawings_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个用户修订附图文件或单一附图文档",
+      "treatment": "用于核对结构、关系、标记和支持"
+    },
+    {
+      "id": "drawings_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段附图关系或修改说明文本",
+      "treatment": "用于解释图示和更正图文关系"
+    },
+    {
+      "id": "claim_requirements_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个权利要求范围、层级或表达要求文件",
+      "treatment": "不得覆盖技术来源和申请类型限制"
+    },
+    {
+      "id": "claim_requirements_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段权利要求范围、层级或表达要求文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

@@ -1,0 +1,26 @@
+{
+  "skill_id": "M01",
+  "mode": "chain_only",
+  "source_contract_sha256": "a290922ac922197c37351a20a3f7e70ff66a98d2b0a21909845e9fda1130866f",
+  "source_version": "F11-bounded-exception",
+  "input_rows": [
+    {
+      "id": "research_request_file",
+      "kind": "one_file",
+      "role": "one research request or technical material"
+    },
+    {
+      "id": "research_request_text",
+      "kind": "one_text_block",
+      "role": "one coherent research material"
+    },
+    {
+      "id": "user_input",
+      "kind": "actual_user_instruction",
+      "role": "scope or bounded edits; never model-filled"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

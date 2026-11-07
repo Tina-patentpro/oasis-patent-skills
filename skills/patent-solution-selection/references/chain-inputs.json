@@ -1,0 +1,46 @@
+{
+  "skill_id": "M04",
+  "mode": "chain_only",
+  "source_contract_sha256": "bb2eb41bb552fb819a14643c7ec602094378a71e54dc7cf6ca91669b47ed8e76",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-1-3生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "solution_selection_basis_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个选型依据、研发约束或验证结果文件",
+      "treatment": "用于调整方案优先级、可实施性和证据状态"
+    },
+    {
+      "id": "solution_selection_basis_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段选型依据、研发约束或验证结果文本",
+      "treatment": "作为文件补充或独立修正意见"
+    },
+    {
+      "id": "application_type",
+      "channel": "配置",
+      "importance": "expected",
+      "one_item_boundary": "一个值：`invention`、`utility_model`或`undetermined`",
+      "treatment": "写入累计快照并下游继承；实用新型仅保留适于产品形状、构造或其结合的技术方案"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

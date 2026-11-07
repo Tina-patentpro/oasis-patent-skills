@@ -1,0 +1,43 @@
+{
+  "package": "patent-final-check",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "F-5-13-FINAL-APPLICATION-CHECK",
+      "version": "0.1.0",
+      "sha256": "5970074863e616f229bd1913f4513bcd57e065c2cb2afce879236dff6f439e34",
+      "relationship": "authorized_standalone_adaptation",
+      "rights_basis": "OasisIntWrite user declaration 2026-11-07",
+      "original_rule_effect": "not_promoted",
+      "original_snapshot_included": false
+    }
+  ],
+  "modification_notice": "2026-11-07: authorized technical excerpts and standalone contract; historical/runtime/evaluation artifacts excluded.",
+  "source_material_is_not_case_fact": true,
+  "selected_technical_sections": [
+    "1.1",
+    "1.2",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10",
+    "1.11",
+    "1.12"
+  ],
+  "table_contract_source": {
+    "source_id": "V3.4.0-local-chain-contract",
+    "section": "2.9",
+    "sha256": "9716b19c7e8e739408bb891d70a2a1fae847cec12b95afad1f6cf9819c133da4",
+    "relationship": "authorized_selected_table_fields",
+    "original_snapshot_included": false
+  },
+  "portable_source_contract": {
+    "source_id": "PATENT-SKILLS-CONTRACT-0.2.0",
+    "section": "3",
+    "sha256": "fa07c2e2925f38f906a12ee00a144335088c0def8710cc9e97b7181c1fa25957",
+    "relationship": "authorized_named_standalone_adaptation",
+    "original_snapshot_included": false
+  }
+}

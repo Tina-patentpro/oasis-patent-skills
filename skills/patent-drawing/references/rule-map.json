@@ -1,0 +1,30 @@
+{
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft",
+  "mappings": [
+    {
+      "id": "I01-MODE",
+      "target": "SKILL.md#选择模式",
+      "behavior": "generation versus edit and missing reference",
+      "evidence_status": "baseline missing-reference behavior observed; candidate pending"
+    },
+    {
+      "id": "I01-GENERATE",
+      "target": "references/generation.md",
+      "behavior": "structure/quantity/view planning and actual result review",
+      "evidence_status": "pending actual generation tests"
+    },
+    {
+      "id": "I01-EDIT",
+      "target": "references/editing.md",
+      "behavior": "actual reference image and scoped structural change",
+      "evidence_status": "pending actual edit tests"
+    },
+    {
+      "id": "I01-STATE",
+      "target": "references/result-contract.md",
+      "behavior": "per-image failed/unknown/unavailable/success distinction",
+      "evidence_status": "pending candidate tool scenarios"
+    }
+  ],
+  "mapping_is_not_behavior_proof": true
+}

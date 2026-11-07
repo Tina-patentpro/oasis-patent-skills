@@ -1,0 +1,81 @@
+{
+  "skill_id": "M13",
+  "mode": "chain_only",
+  "source_contract_sha256": "012311bd5ee2b5a49e57f49746c5f7da9875495e182d57f6cc899a5729308e3e",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-4-12生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "claims_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个待终检权利要求书文件",
+      "treatment": "作为当前权项版本补充或明确替换内容"
+    },
+    {
+      "id": "claims_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段待终检权利要求书文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "specification_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个待终检说明书和摘要文件",
+      "treatment": "作为当前说明书版本补充或明确替换内容"
+    },
+    {
+      "id": "specification_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段待终检说明书或摘要文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "drawings_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个待终检附图文件或单一附图文档",
+      "treatment": "用于图文一致性和实施支持检查"
+    },
+    {
+      "id": "drawings_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段附图说明或图中关系文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "check_requirements_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个终检重点、风险偏好或专业检查要求文件",
+      "treatment": "不缩减默认完整实体检查范围，除非`user_input`明确限定"
+    },
+    {
+      "id": "check_requirements_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段终检重点、风险偏好或专业检查要求文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}

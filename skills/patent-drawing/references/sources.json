@@ -1,0 +1,37 @@
+{
+  "package": "patent-drawing",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "I01-SKILL",
+      "version": "0.2.1",
+      "sha256": "1e081fbd7ea55c97a581fb8fa7771fc4c622533206bb0a595d640689de3b1ffd",
+      "relationship": "authorized_adaptation",
+      "original_snapshot_with_private_history_included": false
+    },
+    {
+      "source_id": "I01-generation",
+      "version": "0.2.1",
+      "sha256": "bf6435967a932ff0abd36b136b08e30c36a3779f187dacf5731681f0ab656630",
+      "relationship": "authorized_adaptation",
+      "original_snapshot_with_private_history_included": false
+    },
+    {
+      "source_id": "I01-editing",
+      "version": "0.2.1",
+      "sha256": "dacf8d807e4f0aa3e713ac93d2454194fc360f6e31fb3bba236113758fff1b6d",
+      "relationship": "authorized_adaptation",
+      "original_snapshot_with_private_history_included": false
+    },
+    {
+      "source_id": "I01-result-contract",
+      "version": "0.2.1",
+      "sha256": "b1b1e41800e61e7310eeb753dc3a5a8a0f6d18cde1089c7641c4c79879067109",
+      "relationship": "authorized_adaptation",
+      "original_snapshot_with_private_history_included": false
+    }
+  ],
+  "modification_notice": "2026-11-07: portable independent entry and source mapping; normative generation/edit/status semantics retained; historical prompts omitted.",
+  "third_party_image_rights": "not_granted_by_software_license"
+}

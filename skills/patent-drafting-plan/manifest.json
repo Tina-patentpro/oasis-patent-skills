@@ -1,0 +1,125 @@
+{
+  "skill_id": "M09",
+  "name": "patent-drafting-plan",
+  "version": "0.3.0-rc.4",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "rightsholder": "Apache Software Foundation"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1780,
+      "sha256": "b80427ca7e2a882fe3242e1d3dd73418b38d020de10895df8b21d903f38a1f7c",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "examples/usage.md",
+      "bytes": 550,
+      "sha256": "dd049af3a79da2ad87081168f25199d746808802c026d397c217ade3d1be3a32",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/business-rules.md",
+      "bytes": 15989,
+      "sha256": "4cf2a56ef23df3cae9dded798f29972b579403099f0ffb5cb47e5b711a0a2851",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/chain-adapter.md",
+      "bytes": 2270,
+      "sha256": "18ef70856e225499289f5ce50f9f1a5a75cf21df8c76dc04b5c301b318d63c27",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/chain-inputs.json",
+      "bytes": 8531,
+      "sha256": "c18782bbcdde22eec6fee730944d5616989ab06bf921f011f0187912c46a2b80",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/core-rules.md",
+      "bytes": 2722,
+      "sha256": "b522bf94dad6cc398720f49a74ca8bbfe442fc3c22c912c543345fed434724a1",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/limitations.md",
+      "bytes": 986,
+      "sha256": "eef66462e0eabcc8e21acede0090459b4ee7a5af638964215fd882c20507efb3",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/quality-practices.md",
+      "bytes": 2945,
+      "sha256": "79940e7560d5c3a538ae06122cd3bd947cce8607e00cc11ed422aa3420811610",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/rule-map.json",
+      "bytes": 9839,
+      "sha256": "2d5575d444c6d48cffd338326d945002667dbdf2adb049c9eeaa260ee59e9353",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/source-contract.md",
+      "bytes": 4320,
+      "sha256": "c2a06388168d8b061d061e67df13d0fedc7d5d001da66dc4c85d76060a110f9c",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/sources.json",
+      "bytes": 1938,
+      "sha256": "643f1ee7bb8ee494e791f3ad055d1b00e51f536020a9c2b3273e77a1999c8bbe",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/standalone-contract.md",
+      "bytes": 6026,
+      "sha256": "d2a8b233e83033b1f78cfba39cc92e3ccc42115a6c57a30cd7c073033ee6dc01",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/table-contracts.md",
+      "bytes": 3346,
+      "sha256": "6cf28b6849d95f59db4bd1cf8551e7cf3c7e8a935a2c9a3e273d031cc5edd94c",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    }
+  ],
+  "required_files": [
+    "LICENSE",
+    "SKILL.md",
+    "examples/usage.md",
+    "references/business-rules.md",
+    "references/chain-adapter.md",
+    "references/chain-inputs.json",
+    "references/core-rules.md",
+    "references/limitations.md",
+    "references/quality-practices.md",
+    "references/rule-map.json",
+    "references/source-contract.md",
+    "references/sources.json",
+    "references/standalone-contract.md",
+    "references/table-contracts.md"
+  ],
+  "publication_status": "not_published",
+  "acceptance": "not_claimed_by_packaging",
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft"
+}

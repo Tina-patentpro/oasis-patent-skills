@@ -1,0 +1,117 @@
+{
+  "skill_id": "M06",
+  "name": "patent-claims-draft",
+  "version": "0.3.0-rc.4",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "rightsholder": "Apache Software Foundation"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1694,
+      "sha256": "0bfd12ae3167434e62acb91d52ec77ff90bff739f21338c7ab6b06ccd69b4f87",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "examples/usage.md",
+      "bytes": 516,
+      "sha256": "c40c122b3d8f41c3885ba1e6acf302a198287a6360cc2af93f7b320343f5873e",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/business-rules.md",
+      "bytes": 33058,
+      "sha256": "a83068c6712f6b1a2a6ca70b70af63bab95689d004b3a41bddcee2f41976423a",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/chain-adapter.md",
+      "bytes": 1980,
+      "sha256": "c84de379633b9893dbbda2422e3af321a9dc691da3906f3512d9858966fa7e49",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/chain-inputs.json",
+      "bytes": 2848,
+      "sha256": "228dbd978a4005d8d5fe726ba7a4cf86318136baccc9c81c20ebec2fecac72a4",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/core-rules.md",
+      "bytes": 2725,
+      "sha256": "62bcc3ce2ac7bcfdd0653a453091ae12df90f84a85610f083880b799c5a8f7f4",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/limitations.md",
+      "bytes": 976,
+      "sha256": "45850a1d78ab4993c248c68720d49385730053c9a55c0047a10b22ea0fe07b5a",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/rule-map.json",
+      "bytes": 35677,
+      "sha256": "0fe3698619a5d39806893b1ab75786254e4cdb49dcef4f86ebb5c66dc93542f5",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/source-contract.md",
+      "bytes": 4320,
+      "sha256": "c2a06388168d8b061d061e67df13d0fedc7d5d001da66dc4c85d76060a110f9c",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/sources.json",
+      "bytes": 1604,
+      "sha256": "2baec4e7a52459a8989d937ad19006405c4d364a6b35a05edd8db6031b484a2a",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/standalone-contract.md",
+      "bytes": 6021,
+      "sha256": "d8738c02ab9efacc3d7fe0215cf69f4a04c89b71b7786c9175d6f6502aa5cd21",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    },
+    {
+      "path": "references/table-contracts.md",
+      "bytes": 2763,
+      "sha256": "c26551f663ba4e7ce845309877857ec50c333b4d173e1ac5b487b58ccdf797b0",
+      "license": "Apache-2.0",
+      "rightsholder": "OasisIntWrite"
+    }
+  ],
+  "required_files": [
+    "LICENSE",
+    "SKILL.md",
+    "examples/usage.md",
+    "references/business-rules.md",
+    "references/chain-adapter.md",
+    "references/chain-inputs.json",
+    "references/core-rules.md",
+    "references/limitations.md",
+    "references/rule-map.json",
+    "references/source-contract.md",
+    "references/sources.json",
+    "references/standalone-contract.md",
+    "references/table-contracts.md"
+  ],
+  "publication_status": "not_published",
+  "acceptance": "not_claimed_by_packaging",
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft"
+}

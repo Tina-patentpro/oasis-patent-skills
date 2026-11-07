@@ -1,0 +1,144 @@
+{
+  "collection": "oasis-patent-skills",
+  "version": "2026.11.07-rc1",
+  "license": "Apache-2.0",
+  "rights_holder": "OasisIntWrite",
+  "rights_reference": "OIW-RIGHTS-20261107-01",
+  "skills": [
+    {
+      "id": "I01",
+      "name": "patent-drawing",
+      "version": "0.3.0-rc.3",
+      "path": "skills/patent-drawing/",
+      "manifest_sha256": "de9f48aacbcc07d92433e5a2e6710f6fb365855df16887413febeb72aaf22042",
+      "file_count": 13,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M01",
+      "name": "patent-background-research",
+      "version": "0.3.0-rc.5",
+      "path": "skills/patent-background-research/",
+      "manifest_sha256": "5eeb3afbc41dab5f32e0e9be798f2c74f82b2d7fdb6f9f1a4ac9d2ec85503380",
+      "file_count": 13,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M02",
+      "name": "patent-triz-analysis",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-triz-analysis/",
+      "manifest_sha256": "b11a88b0d304c9cda07830a3a3d60e96b6cd91a1bbf08b21eaa48a5b194c25f5",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M03",
+      "name": "patent-overview-search",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-overview-search/",
+      "manifest_sha256": "2687876468c4d397ce6b79580d08cebb3aba6fd2b8fd3efb8da49a3fc7fe9c46",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M04",
+      "name": "patent-solution-selection",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-solution-selection/",
+      "manifest_sha256": "a531c9106b7fd667743a1ddf425729a6c91eb07dd81779519be33cdbf93c88af",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M05",
+      "name": "patent-technical-disclosure",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-technical-disclosure/",
+      "manifest_sha256": "6e28484256f71dd12a66120138657e546fa96b4e38381507475c8a371bdb241a",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M06",
+      "name": "patent-claims-draft",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-claims-draft/",
+      "manifest_sha256": "dd1e766448542537a912fda31fc17b5b35efa7c442458aa5d4fffe6b926d1009",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M07",
+      "name": "patent-specification-draft",
+      "version": "0.3.0-rc.3",
+      "path": "skills/patent-specification-draft/",
+      "manifest_sha256": "e88db3d3c777668bc6475251911a735a3ef99688d9e237c8508582314172e613",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M08",
+      "name": "patent-fulltext-recheck",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-fulltext-recheck/",
+      "manifest_sha256": "9d0036f4fa5daa153b8c82d48bb38e032369af33b2484bc011686a97b4e7af0a",
+      "file_count": 16,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M09",
+      "name": "patent-drafting-plan",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-drafting-plan/",
+      "manifest_sha256": "5686eed6a14eb4f0e5e3936e062e521e10d6372ba4560cb33b61a9438dd3d5b7",
+      "file_count": 15,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M10",
+      "name": "patent-technical-confirmation",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-technical-confirmation/",
+      "manifest_sha256": "0257966f29e796c25d7acde93d7042d09ce8574ef5697ee87767023524bc0545",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M11",
+      "name": "patent-claims-final",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-claims-final/",
+      "manifest_sha256": "75728ab2f2200d5fd9bfe8fdb1fdd0d491ff5ce41fa41cee30428ec765e16729",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M12",
+      "name": "patent-specification-final",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-specification-final/",
+      "manifest_sha256": "2fbfb0c9c9ba8c25a69ea028badc98f4cc8e1e555ece61a0388ef80f473c1513",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M13",
+      "name": "patent-final-check",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-final-check/",
+      "manifest_sha256": "26422a9adbd3e53f37569bf026cc103504739dcaf28bc55e09c6b5af5c12fb4e",
+      "file_count": 14,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "M14",
+      "name": "patent-office-action-response",
+      "version": "0.3.0-rc.4",
+      "path": "skills/patent-office-action-response/",
+      "manifest_sha256": "7c08b553fd14dadb432f71d261d1d9e869f6aea44fc96840e3359f98d40e92c5",
+      "file_count": 16,
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft",
+  "source_rule": "F-1-5 V0.1.2",
+  "mappings": [
+    {
+      "rule_id": "R01",
+      "source_heading": "### 1.1 生成物、双读者与成功目标〔R01〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-1",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R02",
+      "source_heading": "### 1.2 八项输入与读取覆盖〔R02〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R03",
+      "source_heading": "### 1.3 合并、冲突与人工修订〔R03〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R04",
+      "source_heading": "### 1.4 正式技术正文与完整性〔R04〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R05",
+      "source_heading": "### 1.5 实施路径与技术链闭合〔R05〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-5",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R06",
+      "source_heading": "### 1.6 领域适配与申请类型〔R06〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-6",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R07",
+      "source_heading": "### 1.7 参数、效果、公式与证据〔R07〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-7",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R08",
+      "source_heading": "### 1.8 附图与图文一致性〔R08〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-8",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R09",
+      "source_heading": "### 1.9 来源、模型补齐与稳定ID〔R09〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R10",
+      "source_heading": "### 1.10 唯一主文件、正式版式与元数据〔R10〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R11",
+      "source_heading": "### 1.11 非专利用户理解与准确确认〔R11〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-11",
+      "reason": "具名技术条款精确保留，输入/状态按本包明确适配",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R12",
+      "source_heading": "### 1.12 完整累计快照与F-2-6交接〔R12〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "optional_chain_adapter",
+      "target": "references/chain-adapter.md",
+      "reason": "累计仅实际链式模式适用；独立保留自身完整正文和材料",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R13",
+      "source_heading": "### 1.13 警示、双状态及返工建议〔R13〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R14",
+      "source_heading": "### 1.14 依据、相邻合同与生效范围〔R14〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "source_identity_boundary",
+      "target": "references/sources.json",
+      "reason": "保留源身份与原效力，历史治理不作为运行依赖",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.1 评价对象、证据与责任〔R15〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "generation_selfcheck_only",
+      "target": "references/core-rules.md",
+      "reason": "只采用生成自检；不纳入评分、评价答案或历史校准，不声明完整评价服务",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.2 必检项与严重缺陷〔R15〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.3 七项关键评价〔R15〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "generation_selfcheck_only",
+      "target": "references/core-rules.md",
+      "reason": "只采用生成自检；不纳入评分、评价答案或历史校准，不声明完整评价服务",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.5 规则级正常与缺陷回查〔R15〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.6 唯一质量结论与证据记录〔R15〕",
+      "source_sha256": "417f7412e1966b8a357e50a2b2b36721216d24d3adbb63f728ad05edcc378732",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "输入/覆盖/合并/身份/状态按本包独立适配，其余技术义务见核心规则",
+      "behavior_verification": "not_claimed_per_clause"
+    }
+  ],
+  "mapping_presence_is_not_behavior_proof": true
+}

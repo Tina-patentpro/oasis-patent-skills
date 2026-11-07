@@ -1,0 +1,32 @@
+{
+  "package": "patent-background-research",
+  "rightsholder": "OasisIntWrite",
+  "license": "Apache-2.0",
+  "sources": [
+    {
+      "source_id": "f11-tech-landscape",
+      "title": "F-1-1技术背景研究生成物标准_TECH_LANDSCAPE_STANDARD_V0.3.3_正式生效版.md",
+      "version": "0.3.3",
+      "sha256": "d55655557e1f29ae42dcff6ed07c9b682a82610ac2a96508153622e5c17c0250",
+      "relationship": "authorized_technical_excerpt_and_standalone_adaptation",
+      "rights_basis": "OasisIntWrite user declaration 2026-11-07",
+      "original_rule_effect": "formal",
+      "original_snapshot_included": false,
+      "selected_technical_sections": [
+        "1.1",
+        "1.2",
+        "1.6",
+        "1.7"
+      ]
+    }
+  ],
+  "modification_notice": "2026-11-07: independent ordinary-material inputs; technical excerpts retained; historical runtime/governance/evaluation artifacts excluded. No source effect promoted.",
+  "third_party_material_relicensed": false,
+  "portable_source_contract": {
+    "source_id": "PATENT-SKILLS-CONTRACT-0.2.0",
+    "section": "3",
+    "sha256": "fa07c2e2925f38f906a12ee00a144335088c0def8710cc9e97b7181c1fa25957",
+    "relationship": "authorized_named_standalone_adaptation",
+    "original_snapshot_included": false
+  }
+}

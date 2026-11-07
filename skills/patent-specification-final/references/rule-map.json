@@ -1,0 +1,244 @@
+{
+  "contract": "PATENT-SKILLS-STANDALONE-0.3.0-draft",
+  "mappings": [
+    {
+      "rule_id": "R01",
+      "source_heading": "### 1.1 用途、目标与责任分界〔R01〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-1",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R02",
+      "source_heading": "### 1.2 唯一基线与十二个输入〔R02〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R03",
+      "source_heading": "### 1.3 前序身份、人工修改与合并〔R03〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R04",
+      "source_heading": "### 1.4 正文、摘要及可编辑性〔R04〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-4",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R05",
+      "source_heading": "### 1.5 可实施公开及领域适配〔R05〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-5",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R06",
+      "source_heading": "### 1.6 权项支持、概括与效果边界〔R06〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-6",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R07",
+      "source_heading": "### 1.7 附图、说明和标记映射〔R07〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-7",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R08",
+      "source_heading": "### 1.8 来源、合理补齐与无来源新增〔R08〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-8",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R09",
+      "source_heading": "### 1.9 修改前后对照与T6说明书侧〔R09〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "authorized_technical_excerpt",
+      "target": "references/business-rules.md#business-1-9",
+      "reason": "技术细则保留；输入/累计/身份以显式独立适配为准",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R10",
+      "source_heading": "### 1.10 技术合同表、交付结构与身份〔R10〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R11",
+      "source_heading": "### 1.11 双状态、警示及人工返工〔R11〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R12",
+      "source_heading": "### 1.12 完整累计交接与F-5-13读取〔R12〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "optional_chain",
+      "target": "references/chain-adapter.md",
+      "reason": "仅实际链式模式；独立结果自行完整",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R13",
+      "source_heading": "### 2.1 本次生成的闭环〔R13〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R14",
+      "source_heading": "### 2.2 职责与动作界限〔R14〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "named_standalone_contract",
+      "target": "references/standalone-contract.md",
+      "reason": "明确改变旧前序/输入/文件/来源/合并/状态前提；技术义务保留于核心和技术条款",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R15",
+      "source_heading": "### 3.1 评价对象、证据与结论〔R15〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R16",
+      "source_heading": "### 3.2 规则审阅和后续验证场景〔R16〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    },
+    {
+      "rule_id": "R17",
+      "source_heading": "### 3.3 官方依据与使用限制〔R17〕",
+      "source_sha256": "0711aa3b4097adbcd865e301e3ddde0210b910f3a4f5835a001f878f1fd5efe8",
+      "adoption": "generation_selfcheck_adaptation",
+      "target": "references/core-rules.md#详细规则与自检",
+      "reason": "只保留生成自检；不纳入评价答案/评分/历史校准，未声称完整评价服务",
+      "behavior_verification": "not_claimed_per_clause",
+      "case_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ]
+    }
+  ],
+  "mapping_presence_is_not_behavior_proof": true
+}

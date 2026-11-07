@@ -1,0 +1,67 @@
+{
+  "skill_id": "M07",
+  "mode": "chain_only",
+  "source_contract_sha256": "b0972dc37852a398f36e8f7b12948f61a907f10948dc88f327ea0f008ee13f52",
+  "source_version": "V3.4.0 with named local0.2 adapter",
+  "input_rows": [
+    {
+      "id": "upstream_md_file",
+      "channel": "前一工作流文件",
+      "importance": "expected",
+      "one_item_boundary": "一个由Flow-2-6生成并实际传入的累计主Markdown",
+      "treatment": "以该文件的实际内容和哈希为本次权威基线；校验内部`workflow_run_uid`、文件名和来源节点；缺失或结构异常时继续输出并登记警示，不回读更早节点文件"
+    },
+    {
+      "id": "claims_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个用户修订权利要求书文件",
+      "treatment": "作为权利要求内容主体；无明确替换指令时与累计权项保留差异"
+    },
+    {
+      "id": "claims_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段用户修订权利要求书文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "disclosure_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个技术交底书文件",
+      "treatment": "作为交底内容主体并逐项定位来源"
+    },
+    {
+      "id": "disclosure_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段技术交底文本",
+      "treatment": "与文件并存时作为补充或纠正"
+    },
+    {
+      "id": "drawings_file",
+      "channel": "用户文件",
+      "importance": "optional",
+      "one_item_boundary": "一个附图文件或单一附图文档",
+      "treatment": "用于附图说明、标记和图文一致性"
+    },
+    {
+      "id": "drawings_text",
+      "channel": "用户文本",
+      "importance": "optional",
+      "one_item_boundary": "一段附图说明或图中技术关系文本",
+      "treatment": "用于解释或纠正附图内容"
+    },
+    {
+      "id": "user_input",
+      "channel": "用户手动文本",
+      "importance": "optional",
+      "one_item_boundary": "一段运行指令，只表达增删改、优先级、范围或偏好",
+      "treatment": "不得作为文件通道或被模型自动生成；与技术材料冲突时记录冲突并按明确指令处理"
+    }
+  ],
+  "precedence": "Only actual manual user_input permits conflicting baseline override; file/text complements do not silently replace. Optional new standalone channels are not added to this list.",
+  "source_formal_effect_changed": false,
+  "old_consumer_compatibility": "not_claimed"
+}
