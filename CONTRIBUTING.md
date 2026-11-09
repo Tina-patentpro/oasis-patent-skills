@@ -28,5 +28,5 @@
 ## 反馈渠道
 
 [GitHub Issues](https://github.com/Tina-patentpro/oasis-patent-skills/issues)。
-商业咨询与私有部署请通过 [GitHub 主页](https://github.com/Tina-patentpro)所列公开渠道联系，
+商业咨询与私有部署请通过[官网联系页](https://oasisintwrite.com/contact/)说明非敏感的组织类型与部署约束，
 本仓库不设固定价格、不承诺效果指标。
