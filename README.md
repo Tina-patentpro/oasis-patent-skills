@@ -1,17 +1,34 @@
-# oasis-patent-skills · 专利撰写 Agent Skills
+# oasis-patent-skills · 绿洲慧写专利 Skills
 
-把中国专利撰写中「材料整理、来源追溯、待确认项保留」的方法，写成可单独取用、
-可逐条核对边界的独立 Agent Skills。面向专利代理师／工程师、企业 IP 团队和 Agent 开发者；
-辅助的是按环节整理材料并留下人工判断位置，不是自动生成可递交文件。
+发明人回了一串消息，该问哪一句？权利要求改了一轮，怎么给同事说明理由？提交前，哪些段落、附图和术语需要再核一遍？
 
-## 先看哪个问题：研发材料不完整时怎么整理
+本仓库按专利业务任务公开可查阅的规则与示例。先看需要的材料、文档约定的交付和复核点，再决定要不要在自己的环境试读。
 
-如果你的研发说明只有部件组成和控制过程，缺实验数据和附图，
-可从 `M05 patent-technical-disclosure`（`0.3.0-rc.4`）开始：它是独立模式，不要求先跑其他包。
-包内 `examples/usage.md` 是**仓库自编的调用请求示例**，说明如何提出「保留已知关系、
-明确列出实施和效果仍需确认」的请求；实际研发说明需另附，包内**没有**完整研发技术文本、
-**没有**交底输出稿。`SKILL.md` 与独立合同约定了预期输出结构（交底正文、实施路径、
-问题／要素／效果表、图文／术语映射、来源与待确认事项）——这是**文档预期，不是模型运行结果**。
+## 看一条反馈怎么变成复核记录
+
+**自编示意，不是运行结果。** 假设发明人说「样机外壳已经换成铝材，耐热测试还没做」。
+
+| 研发反馈 | 要追问什么 | 改稿怎么处理 |
+| --- | --- | --- |
+| 外壳已改为铝材 | 哪一版样机用了铝材？ | 核对样机版本后再处理材料描述。 |
+| 耐热测试还没做 | 用什么条件测试，谁负责补结果？ | 把耐热效果留作待确认。 |
+
+整理确认记录的规则见固定版本的 [M10 技术沟通与确认](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-technical-confirmation/SKILL.md)。示意不含客户资料、真实案件或真实凭据，具体案件由专业人员复核。
+
+## 按任务找规则
+
+从下表选一个手头的任务。点进对应规则，先看需要的材料、文档约定的交付和复核点。
+
+| 我想做的事 | 先看什么 |
+| --- | --- |
+| 把发明人的反馈整理成可追问清单 | [技术沟通与确认 M10](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-technical-confirmation/SKILL.md) |
+| 把权利要求的改动和理由交给同事 | [权利要求修改与变更对照 M11](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-claims-final/SKILL.md) |
+| 核对申请文件的支持、术语和图文一致性 | [申请文件终检 M13](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-final-check/SKILL.md) |
+| 按审查理由整理答复思路 | [审查意见答复辅助 M14](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-office-action-response/SKILL.md) |
+
+## 查看全部候选与试读说明
+
+[查看 15 个预发布候选（固定 Release）](https://github.com/Tina-patentpro/oasis-patent-skills/releases/tag/2026.11.07-rc1) · [按固定目录找完整清单](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/catalog.json) · [安装与配置说明](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/docs/installation.md) · [安全报告说明](https://github.com/Tina-patentpro/oasis-patent-skills/blob/main/SECURITY.md)
 
 ## 最短试用路线（固定版本）
 
